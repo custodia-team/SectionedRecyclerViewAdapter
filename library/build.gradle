@@ -24,6 +24,7 @@ ext.versions = [
 apply plugin: 'com.android.library'
 apply from: "build_files/static-code-analysis.gradle"
 apply from: "build_files/jacoco.gradle"
+apply from: file('publish.gradle')
 
 android {
     compileSdkVersion versions.compileSdk
