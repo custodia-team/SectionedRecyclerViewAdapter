@@ -7,7 +7,7 @@ if (project.rootProject.file("local.properties").exists()) {
 
 def LIB_GROUP_ID = 'custodia.ai'
 def LIB_ARTIFACT_ID = System.getenv('LIB_ARTIFACT_ID') ?: properties.getProperty('LIB_ARTIFACT_ID') ?: 'sectionedrecyclerviewadapter'
-def LIB_VERSION = '1.0.0'
+def LIB_VERSION = '1.0.7'
 
 task sourceJar(type: Jar) {
     from android.sourceSets.main.java.srcDirs
